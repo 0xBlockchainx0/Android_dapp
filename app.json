@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "bakery-fe",
+    "slug": "bakery",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/app-icons/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#002D45"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/app-icons/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/images/app-icons/favicon.png"
+    }
+  }
+}
